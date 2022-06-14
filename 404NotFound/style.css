@@ -1,0 +1,67 @@
+h1{
+    width: 588px;
+    height: 190px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94.78px;
+    color: #333333;
+    letter-spacing: -3.5%;
+}
+
+p{
+    width: 385px;
+    height: 150px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+    color: #4F4F4F;
+}
+
+button{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20.73px;
+    letter-spacing: -3.5%;
+    color: #FFFFFF;
+    background-color: #333333;
+    width: 216px;
+    height: 68px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    margin: 0 auto;
+}
+
+img{
+    width: 532.22px;
+    height: 447.43px;
+    max-width: 100%;
+}
+
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+
+.title{
+    margin-top: 40px;
+    margin-left: 77px;
+    width:170px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25.18px;
+    letter-spacing: -8%;
+    font-family: 'Inconsolata', monospace;
+}
