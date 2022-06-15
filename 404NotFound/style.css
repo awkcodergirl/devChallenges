@@ -1,4 +1,7 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+.txtContainer h1{
     width: 588px;
     height: 190px;
     font-family: 'Space Mono', monospace;
@@ -9,7 +12,7 @@ h1{
     letter-spacing: -3.5%;
 }
 
-p{
+.txtContainer p{
     width: 385px;
     height: 150px;
     font-family: 'Space Mono', monospace;
@@ -20,7 +23,7 @@ p{
     color: #4F4F4F;
 }
 
-button{
+.txtContainer button{
     font-family: 'Space Mono', monospace;
     font-weight: 700;
     font-size: 14px;
@@ -34,27 +37,20 @@ button{
 
 .main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-shrink: 1;
     margin: 0 auto;
 }
 
-img{
-    width: 532.22px;
-    height: 447.43px;
+.imgContainer img{
+    width: 532px;
+    height: 447px;
     max-width: 100%;
 }
 
-
-@media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-}
-
-.title{
+header h3{
     margin-top: 40px;
     margin-left: 77px;
     width:170px;
@@ -64,4 +60,55 @@ img{
     line-height: 25.18px;
     letter-spacing: -8%;
     font-family: 'Inconsolata', monospace;
+}
+
+footer p{
+    color: #BDBDBD;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+footer {
+    margin : 40px auto;
+}
+
+
+@media screen and (max-width:375px) {
+
+    header{
+        margin-bottom: 70px;
+    }
+
+    .main {
+      flex-direction: column;
+    }
+
+    .txtContainer h1{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+
+    .txtContainer p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        color: #4F4F4F;
+    }
+
+    .imgContainer img{
+        width: 286px;
+        height: 238px;
+    }
+
+    footer{
+        margin-top: 114px;
+    }
 }
