@@ -3,7 +3,7 @@
 This is my repository to showcase projects I have done with [devChallenges](https://devchallenges.io/)
 
 ## Responsive Web Developer Challenges
-- [ ] My Team Page
+- [x] My Team Page
 - [x] 404 Not Found
 - [ ] My Gallery
 - [ ] Interior Consultant
