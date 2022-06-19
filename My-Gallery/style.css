@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-photo img{
+    width: 170px;
+    border-radius: 16px;
+}
+
+.profile-photo{
+    width: 200px;
+    margin: 40px 550px auto 550px;
+}
+
+figure{
+    text-align:center;
+    margin: 20px auto;
+}
+
+.profile-photo h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #4E5150;
+    margin: 5px auto 5px auto;
+}
+
+.profile-photo p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #A9A9A9;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: 35px 400px
+}
+
+.info-container div{
+    width: 100px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #E5E5E5; 
+}
+
+.info-container h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-size: 18px;
+    text-align: center;
+    color: #4E5150;
+    margin-top: 13px;
+}
+
+.info-container p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #BDBDBD;
+    margin-top: 4px;
+}
+
+.picture-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "photo-1 photo-2 photo-2" "photo-3 photo-3 photo-4" "photo-5 photo-6 photo-4";
+    margin: 100px 150px; 
+}
+
+/* .picture-grid > div {
+    border: 1px solid black;
+} */
+
+.picture-grid img{
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.one img, .five img, .six img{
+    width: 299px;
+    height: 299px;
+}
+
+.two img{
+    width: 640px;
+    height: 299px;
+}
+
+.three img{
+    width: 640px;
+    height: 299px;
+}
+
+.four img{
+    width: 297px;
+    height: 630px;
+}
+
+#photo-1{
+    grid-area: photo-1;
+}
+
+#photo-2{
+    grid-area: photo-2;
+}
+
+#photo-3{
+    grid-area: photo-3;
+}
+
+#photo-4{
+    grid-area: photo-4;
+}
+
+#photo-5{
+    grid-area: photo-5;
+}
+
+#photo-6{
+    grid-area: photo-6;
+}
+
+.one img,.three img, .five img, .six img{
+    margin-left: 10px;
+}
+
+footer {
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+footer p {
+    text-align: center;
+}
