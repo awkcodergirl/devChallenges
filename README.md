@@ -5,7 +5,7 @@ This is my repository to showcase projects I have done with [devChallenges](http
 ## Responsive Web Developer Challenges
 - [x] My Team Page
 - [x] 404 Not Found
-- [ ] My Gallery
+- [x] My Gallery
 - [x] Interior Consultant
 - [ ] Checkout Page
 - [ ] Edie Homepage
