@@ -6,7 +6,7 @@ This is my repository to showcase projects I have done with [devChallenges](http
 - [x] My Team Page
 - [x] 404 Not Found
 - [ ] My Gallery
-- [ ] Interior Consultant
+- [x] Interior Consultant
 - [ ] Checkout Page
 - [ ] Edie Homepage
 - [ ] Portfolio
