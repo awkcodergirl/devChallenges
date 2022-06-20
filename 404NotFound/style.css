@@ -1,114 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
-.txtContainer h1{
-    width: 588px;
-    height: 190px;
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 94.78px;
-    color: #333333;
-    letter-spacing: -3.5%;
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
-.txtContainer p{
-    width: 385px;
-    height: 150px;
-    font-family: 'Space Mono', monospace;
-    font-weight: 400;
+header h3{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
     font-size: 24px;
-    line-height: 35.54px;
-    letter-spacing: -3.5%;
-    color: #4F4F4F;
-}
-
-.txtContainer button{
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20.73px;
-    letter-spacing: -3.5%;
-    color: #FFFFFF;
-    background-color: #333333;
-    width: 216px;
-    height: 68px;
+    margin: 40px auto auto 80px;
 }
 
 .main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    margin: 80px auto auto auto;
     flex-wrap: wrap;
-    flex-shrink: 1;
-    margin: 0 auto;
 }
 
-.imgContainer img{
-    width: 532px;
-    height: 447px;
-    max-width: 100%;
+img{
+    width: 530px;
+    height: 450px;
 }
 
-header h3{
-    margin-top: 40px;
-    margin-left: 77px;
-    width:170px;
-    height: 25px;
+.txt-Container{
+    width: 600px;
+}
+
+.txt-Container h1{
+    font-family: 'Space Mono', monospace;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 25.18px;
-    letter-spacing: -8%;
-    font-family: 'Inconsolata', monospace;
+    font-size: 64px;
+    color: #333333;
 }
 
-footer p{
-    color: #BDBDBD;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+.txt-Container p{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4F4F4F;
+    margin: 40px 200px 40px 0px;
+}
+
+.txt-Container button{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #333333;
+    padding: 20px 30px;
 }
 
 footer {
-    margin : 40px auto;
+    margin : 150px auto 30px auto;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    color: #4F4F4F;
 }
 
+footer p {
+    text-align: center;
+}
 
-@media screen and (max-width:375px) {
-
-    header{
-        margin-bottom: 70px;
+@media (max-width:1060px) {
+    
+    header h3{
+        margin: 20px auto auto 20px;
     }
 
-    .main {
-      flex-direction: column;
+    img{
+        width: auto;
+        max-height: 200px;
     }
 
-    .txtContainer h1{
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 71px;
-        letter-spacing: -0.035em;
+    .img-Container{
+        margin: 40px auto 40px auto;
     }
 
-    .txtContainer p{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        letter-spacing: -0.035em;
-        color: #4F4F4F;
+    .main{
+        margin: 0px 20px;
     }
 
-    .imgContainer img{
-        width: 286px;
-        height: 238px;
+    .txt-Container h1{
+        font-size: 30px;
     }
 
-    footer{
-        margin-top: 114px;
+    .txt-Container p{
+        font-size: 20px;
+        margin: 40px 100px 40px 0px;
     }
+
 }
