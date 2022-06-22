@@ -5,6 +5,3 @@
 </div>
 
 ## 
-
-Notes: 
-make text more responsive, align main to the center of the page
