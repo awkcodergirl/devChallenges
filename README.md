@@ -3,9 +3,9 @@
 This is my repository to showcase projects I have done with [devChallenges](https://devchallenges.io/)
 
 ## Responsive Web Developer Challenges
-- [x] My Team Page
-- [x] 404 Not Found
-- [x] My Gallery
+- [x] [My Team Page](https://awkcodergirl.github.io/devChallenges/myOfficePage/)
+- [x] [404 Not Found](https://awkcodergirl.github.io/devChallenges/404NotFound/)
+- [x] [My Gallery](https://awkcodergirl.github.io/devChallenges/My-Gallery/)
 - [x] Interior Consultant
 - [ ] Recipe Page
 - [ ] Checkout Page
