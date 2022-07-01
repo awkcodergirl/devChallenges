@@ -6,7 +6,7 @@ This is my repository to showcase projects I have done with [devChallenges](http
 - [x] [My Team Page](https://awkcodergirl.github.io/devChallenges/myOfficePage/)
 - [x] [404 Not Found](https://awkcodergirl.github.io/devChallenges/404NotFound/)
 - [x] [My Gallery](https://awkcodergirl.github.io/devChallenges/My-Gallery/)
-- [x] Interior Consultant
+- [x] [Interior Consultant](https://awkcodergirl.github.io/devChallenges/Interior-Consultant/)
 - [x] [Recipe Page](https://awkcodergirl.github.io/devChallenges/Recipe-Page/)
 - [ ] Checkout Page
 - [ ] Edie Homepage
