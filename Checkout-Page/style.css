@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 60px 0;
+    display:inline-block;
+    max-width: 100%;
+    padding-left: 172px;
+    /* border: 1px solid;  */
+}
+
+form{
+    max-width: 450px;
+    /* border: 1px solid; */
+    margin: 0;
+}
+
+.part-1, .part-2, .part-3, legend{
+    border: none;
+    margin-left: 0;
+    padding: 0;
+}
+
+.part-1{
+    margin-bottom: 30px;
+}
+
+legend{
+    margin-bottom: 15px;
+    color: #333333;
+    font-size: 18px;
+}
+
+input[type=email], input[type=tel], input[type=text], #country {
+    width: 100%;
+    padding: 12px 45px;
+    margin: 10px 0 20px 0px;
+    display: inline-block;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input::placeholder, select{
+    overflow: visible;
+    color:#828282;
+}
+
+#country{
+    width: 80%;
+}
+
+.one-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 12px;
+    color: #4F4F4F;
+}
+
+input.email {
+    background: url(images/email.svg) left no-repeat;
+    background-position: 10px;
+}
+
+input.phone{
+    background: url(images/phone.svg) left no-repeat;
+    background-position: 10px;
+}
+
+input.fullName{
+    background: url(images/user.svg) left no-repeat;
+    background-position: 10px;
+}
+
+input.address{
+    background: url(images/address.svg) left no-repeat;
+    background-position: 10px;
+}
+
+input.city{
+    background: url(images/city.svg) left no-repeat;
+    background-position: 10px;
+}
+
+select.country{
+    background: url(images/country.svg) left no-repeat;
+    background-position: 10px;
+}
+
+input.postal-code{
+    background: url(images/postal.svg) left no-repeat;
+    background-position: 10px;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+
+.save-info{
+    margin-left: 11px;
+}
+
+#submit-button{
+    display: block;
+    margin-right: 0;
+    background-color: #F2994A;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 17px 45px;
+    font-size: 16px;
+    margin-top: 23px;
+}
+
+.quantity-container{
+    display: flex;
+    width: 140px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #828282;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 27px;
+} 
+
+.plus-btn, .minus-btn{
+    border: none;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    background-color: #E0E0E0;
+    padding: 0;
+}
+
+.plus-btn svg, .plus-btn image, .minus-btn svg, .minus-btn image {
+    width: 15px;
+    height: 16px;
+}
+
+.plus-btn svg, .minus-btn svg{
+    margin: 2px 0;
+}
+
+.container1, .container2{
+    display: flex;
+    width: 300px;
+    gap: 20px;
+}
+
+.item-img img, .item-img{
+    width: 134px;
+    height: 136px;
+    border-radius: 13px;
+}
+
+.item-name{
+    font-size: 16px;
+    color: #4E5150;
+    margin-bottom: 6px;
+}
+
+.new-price{
+    font-size: 16px;
+    color: #F2994A;
+}
+
+.one .old-price, .two .old-price{
+    font-size: 12px;
+    color: #4E5150;
+    position: relative;
+    bottom: 16px;
+    left: 75px;
+}
+
+.container1{
+    margin-bottom: 30px;
+}
+
+.container2{
+    margin-bottom: 80px;
+}
+
+.container3{
+    width: 300px;
+}
+
+.total-title, .shipping-title{
+    font-size: 18px;
+}
+
+.total-amount, .shipping-amount{
+    font-size: 14px;
+    position: relative;
+    text-align: right;
+    bottom: 19px;
+}
+
+.side-container{
+    width: 383px;
+    height: 535px;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin: 0;
+}
+
+hr{
+    border-top: 1px solid #BDBDBD;
+}
+
+.shipping, .total{
+    margin-top: 10px;
+}
+
+.mega-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap-reverse; */
+    padding: 0;
+}
+
+footer p, footer a {
+    margin: 150px auto 30px auto;
+    font-size: 14px;
+    color: #4F4F4F;
+    font-style: normal;
+    text-align: center;
+}
