@@ -7,8 +7,10 @@
 }
 
 header h1{
-    margin: 50px auto 50px 110px;
+    /* margin: 50px auto 50px 110px; */
+    margin: 50px auto 50px auto;
     font-size: 36px;
+    width: 81vw;
     color: #4F4F4F;
     font-style: normal;
     text-align: left;
