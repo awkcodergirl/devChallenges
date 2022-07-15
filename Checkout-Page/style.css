@@ -6,20 +6,27 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.title{
+header h1{
+    margin: 50px auto 50px 110px;
     font-size: 36px;
-    font-weight: 600;
-    margin: 60px 0;
-    display:inline-block;
-    max-width: 100%;
-    padding-left: 172px;
-    /* border: 1px solid;  */
+    color: #4F4F4F;
+    font-style: normal;
+    text-align: left;
+    /* border: 1px solid; */
 }
 
-form{
-    max-width: 450px;
+.mega-container{
+    display: flex;
+    justify-content:space-around;
+    padding: auto;
     /* border: 1px solid; */
-    margin: 0;
+}
+
+
+form{
+    width: 36%;
+    margin: 0 auto;
+    /* border: 1px solid; */
 }
 
 .part-1, .part-2, .part-3, legend{
@@ -38,7 +45,7 @@ legend{
     font-size: 18px;
 }
 
-input[type=email], input[type=tel], input[type=text], #country {
+input[type=email], input[type=tel], input[type=text] {
     width: 100%;
     padding: 12px 45px;
     margin: 10px 0 20px 0px;
@@ -55,6 +62,12 @@ input::placeholder, select{
 
 #country{
     width: 80%;
+    padding: 12px 40px;
+    margin: 10px 0 20px 0px;
+    display: inline-block;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .one-row{
@@ -186,15 +199,15 @@ input[type=checkbox]{
 }
 
 .container1{
-    margin-bottom: 30px;
+    margin: 30px 20px;
 }
 
 .container2{
-    margin-bottom: 80px;
+    margin: 0px 20px 90px 20px;
 }
 
 .container3{
-    width: 300px;
+    margin: 0px 20px 0px 20px;
 }
 
 .total-title, .shipping-title{
@@ -209,13 +222,10 @@ input[type=checkbox]{
 }
 
 .side-container{
-    width: 383px;
     height: 535px;
     background-color: #F2F2F2;
     border-radius: 12px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 hr{
@@ -226,13 +236,6 @@ hr{
     margin-top: 10px;
 }
 
-.mega-container{
-    display: flex;
-    justify-content: space-evenly;
-    /* flex-wrap: wrap-reverse; */
-    padding: 0;
-}
-
 footer p, footer a {
     margin: 150px auto 30px auto;
     font-size: 14px;
@@ -240,3 +243,25 @@ footer p, footer a {
     font-style: normal;
     text-align: center;
 }
+
+.plus-btn:hover, .minus-btn:hover{
+    border: 1px solid #174ea6;
+    background-color: #FFFFF0;
+}
+
+#submit-button:hover{
+    color: black;
+}
+
+
+/* @media (max-width:1060px) {
+    .mega-container{
+        flex-direction: column-reverse;
+    }
+} */
+
+
+/*  
+    Fix for mobile view
+    Add js
+*/
