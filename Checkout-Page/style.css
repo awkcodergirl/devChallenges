@@ -12,21 +12,18 @@ header h1{
     color: #4F4F4F;
     font-style: normal;
     text-align: left;
-    /* border: 1px solid; */
 }
 
 .mega-container{
     display: flex;
     justify-content:space-around;
     padding: auto;
-    /* border: 1px solid; */
 }
 
 
 form{
     width: 36%;
     margin: 0 auto;
-    /* border: 1px solid; */
 }
 
 .part-1, .part-2, .part-3, legend{
@@ -254,14 +251,18 @@ footer p, footer a {
 }
 
 
-/* @media (max-width:1060px) {
+@media (max-width:1060px) {
     .mega-container{
         flex-direction: column-reverse;
     }
-} */
 
+    form{
+        margin-top: 60px;
+        width: 50vw;
+    }
 
-/*  
-    Fix for mobile view
-    Add js
-*/
+    header h1{
+        font-size: 50px;
+    }
+
+}
