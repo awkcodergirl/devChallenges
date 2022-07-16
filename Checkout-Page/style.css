@@ -7,12 +7,10 @@
 }
 
 header h1{
-    /* margin: 50px auto 50px 110px; */
     margin: 50px auto 50px auto;
     font-size: 36px;
     width: 81vw;
     color: #4F4F4F;
-    font-style: normal;
     text-align: left;
 }
 
@@ -20,12 +18,12 @@ header h1{
     display: flex;
     justify-content:space-around;
     padding: auto;
+    width: 81vw;
 }
 
-
 form{
-    width: 36%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 0 auto 0 0;
 }
 
 .part-1, .part-2, .part-3, legend{
@@ -224,7 +222,8 @@ input[type=checkbox]{
     height: 535px;
     background-color: #F2F2F2;
     border-radius: 12px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: 0 0 0 auto;
 }
 
 hr{
@@ -265,6 +264,15 @@ footer p, footer a {
 
     header h1{
         font-size: 50px;
+        width: 60vw;
+    }
+
+    .side-container{
+        margin: 0 auto 0 0;
+    }
+
+    .mega-container{
+        width: 60vw;
     }
 
 }
