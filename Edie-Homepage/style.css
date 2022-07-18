@@ -9,7 +9,12 @@
 
 header{
     display: flex;
-    margin: 60px auto;
+    margin: 20px auto 40px auto;
+    position: sticky;
+    top:0;
+    padding: 20px 0;
+    background: white;
+    z-index: 999;
 }
 
 header h1{
@@ -185,7 +190,6 @@ input[type=email]{
     margin-left: 0;
 }
 
-
 .picture figcaption{
     text-align: left;
     margin-top: 15px;
@@ -299,7 +303,7 @@ blockquote p{
 }
 
 .client-picture{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .client-picture figcaption{
