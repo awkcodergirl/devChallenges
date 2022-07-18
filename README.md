@@ -10,7 +10,6 @@ This is my repository to showcase projects I have done with [devChallenges](http
 - [x] [Recipe Page](https://awkcodergirl.github.io/devChallenges/Recipe-Page/)
 - [x] [Checkout Page](https://awkcodergirl.github.io/devChallenges/Checkout-Page/)
 - [ ] Edie Homepage
-- [ ] Portfolio
 
 ## Front-end Developer Challenges
 - [ ] Button Component
