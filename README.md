@@ -9,7 +9,7 @@ This is my repository to showcase projects I have done with [devChallenges](http
 - [x] Interior Consultant ([Demo](https://awkcodergirl.github.io/devChallenges/Interior-Consultant/) | [Repo](https://github.com/awkcodergirl/devChallenges/tree/main/Interior-Consultant))
 - [x] Recipe Page ([Demo](https://awkcodergirl.github.io/devChallenges/Recipe-Page/) | [Repo](https://github.com/awkcodergirl/devChallenges/tree/main/Recipe-Page))
 - [x] Checkout Page ([Demo](https://awkcodergirl.github.io/devChallenges/Checkout-Page/) | [Repo](https://github.com/awkcodergirl/devChallenges/tree/main/Checkout-Page))
-- [ ] Edie Homepage
+- [ ] Edie Homepage ([Demo](https://awkcodergirl.github.io/devChallenges/Edie-Homepage/) | [Repo](https://github.com/awkcodergirl/devChallenges/tree/main/Edie-Homepage))
 
 ## Front-end Developer Challenges
 - [ ] Button Component
