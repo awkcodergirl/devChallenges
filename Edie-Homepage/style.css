@@ -40,7 +40,7 @@ header nav a{
 }
 
 .intro-container{
-    width: 90%;
+    width: 80%;
 }
 
 .intro-container img{
@@ -49,7 +49,7 @@ header nav a{
 }
 
 .container-1, .container-2{
-    width: 30%;
+    width: 35%;
     margin-left: 25%;
 }
 
@@ -81,6 +81,10 @@ h1{
     margin-bottom: 40px;
 }
 
+form{
+    position: relative;
+}
+
 form label{
     font-size: 14px;
     font-weight: 500;
@@ -98,8 +102,7 @@ input[type=email]{
     background-color: transparent;
     outline: none;
     font-size: 15px;
-    margin: 10px 15px;
-    width: 70%;
+    margin: 15px 15px;
 }
 
 .submit-button{
@@ -109,6 +112,9 @@ input[type=email]{
     font-size: 14px;
     border-radius: 5px;
     border: none;
+    position: absolute;
+    right: 9px;
+    top: 50%;
 }
 
 .services-container{
@@ -127,7 +133,7 @@ input[type=email]{
     padding: 46px 35px;
 }
 
-.services div:not(:last-child){
+.services div{
     margin-right: 30px;
 }
 
@@ -174,25 +180,25 @@ input[type=email]{
 }
 
 .projects-container{
-    text-align: center;
+    width: 80%;
     margin-bottom: 200px;
 }
 
-.projects-container h1{
-    text-align: left;
-    margin-left: 10%;
+.picture-container-one, .picture-container-two{
+    display: flex;
 }
 
-.projects-container img{
+.one, .three{
+    margin-top: 120px;
+}
+
+.picture img{
     border-radius: 12px;
-    display: block;
-    width: 90%;
-    margin-left: 0;
+    width: 95%;
 }
 
-.picture figcaption{
-    text-align: left;
-    margin-top: 15px;
+.projects-container h1{
+    margin-bottom: 20px;
 }
 
 .projects-container h4{
@@ -207,22 +213,8 @@ input[type=email]{
     font-weight: 700;
 }
 
-.picture{
-    position: relative;
-    display: inline-block;
-    margin: 50px 0px;
-}
-
-.one{
-    top: 100px;
-}
-
-.three{
-    top: 100px;
-}
-
 .seemore-link{
-    width: 72%;
+    margin-right: 25px;
     text-align: right;
 }
 
@@ -367,4 +359,44 @@ footer img{
 
 footer form input[type=email]{
     width: 62%;
+}
+
+footer form .submit-button{
+    top: 27%;
+}
+
+@media (max-width:1060px) {
+
+    .container-1, .container-2{
+        margin-left: 0;
+        width: 75%;
+    }
+
+    .services{
+        flex-wrap: wrap;
+    }
+
+    .services div{
+        padding: 46px 0px;
+    }
+
+    .picture-container-one, .picture-container-two{
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+
+    .one, .three{
+        margin-top: 0;
+    }
+
+    .picture{
+        margin-left: 0;
+        margin-bottom: 35px;
+    }
+
+    .seemore-link{
+        margin-right: 0px;
+        text-align: left;
+    }
+
 }
